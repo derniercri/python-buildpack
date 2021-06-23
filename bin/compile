@@ -64,7 +64,7 @@ PYPY36="pypy3.6"
 # Which stack is used (for binary downloading), if none is provided (e.g. outside of Heroku)?
 # TODO: Remove this and require that STACK be set explicitly.
 DEFAULT_PYTHON_STACK="scalingo-18"
-<<<<<<< HEAD
+
 # If pip doesn't match this version (the version we install), run the installer.
 PIP_UPDATE="21.0.1"
 
@@ -88,8 +88,6 @@ done
 
 export DEFAULT_PYTHON_STACK PIP_UPDATE
 export PY37 PY36 PY35 PY27 PY34
-=======
->>>>>>> 779b523e371e379466f35d10c0d7d19e0db48502
 
 # Common Problem Warnings:
 # This section creates a temporary file in which to stick the output of `pip install`.
